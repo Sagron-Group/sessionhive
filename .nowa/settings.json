@@ -1,0 +1,25 @@
+{
+    "version": "2.0.9",
+    "app": {
+        "name": "SessionHive",
+        "bundleId": "dev.sagron.sessionhive"
+    },
+    "main": [
+        {
+            "key": "firebase",
+            "statement": "await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);",
+            "imports": [
+                "package:firebase_core/firebase_core.dart",
+                "package:session_hive/firebase_options.dart"
+            ]
+        }
+    ],
+    "firebase": {
+        "projectId": "sessionhive-7",
+        "androidAppId": "1:698348648054:android:832b170d7e5d85b9cb9157",
+        "iosAppId": "1:698348648054:ios:4c022da510c3a063cb9157",
+        "webAppId": "1:698348648054:web:0ade8cbf4193b86ecb9157",
+        "clientId": "698348648054-deficqj6qc2opp539kqjnp3ig3k9iaoj.apps.googleusercontent.com",
+        "connectedPackageName": "dev.sagron.sessionhive"
+    }
+}

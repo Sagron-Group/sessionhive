@@ -1,0 +1,54 @@
+{
+    "canvases": [
+        {
+            "x": 500.0,
+            "y": 200.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const HomePage()",
+            "deps": [
+                "lib/pages/home_page.dart"
+            ]
+        },
+        {
+            "x": -17.0,
+            "y": 194.5,
+            "w": 393.0,
+            "h": 819.0,
+            "widget": "const JoinMeeting()",
+            "deps": [
+                "lib/join_meeting.dart"
+            ]
+        },
+        {
+            "x": 1023.0,
+            "y": 200.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const Profile()",
+            "deps": [
+                "lib/profile.dart"
+            ]
+        },
+        {
+            "x": -17.0,
+            "y": 1081.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const HostMeeting()",
+            "deps": [
+                "lib/host_meeting.dart"
+            ]
+        },
+        {
+            "x": 1540.0,
+            "y": 200.0,
+            "w": 393.0,
+            "h": 808.0,
+            "widget": "const Lounge()",
+            "deps": [
+                "lib/lounge.dart"
+            ]
+        }
+    ]
+}

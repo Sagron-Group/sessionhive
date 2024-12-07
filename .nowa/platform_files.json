@@ -1,0 +1,20 @@
+{
+    "android": {
+        "androidManifest": {},
+        "rootBuildGradle": {},
+        "appBuildGradle": {}
+    },
+    "iOS": {
+        "infoPlist": {
+            "inDictSection": {
+                "photoLibraryKey": "<key>NSPhotoLibraryUsageDescription</key>\n    <string>This app will use your photo gallery</string>",
+                "cameraKey": "<key>NSCameraUsageDescription</key>\n    <string>This app will use your camera</string>",
+                "micKey": "<key>NSMicrophoneUsageDescription</key>\n    <string>This app will use your microphone</string>",
+                "GIDClientID": "<key>GIDClientID</key>\n    <string>698348648054-deficqj6qc2opp539kqjnp3ig3k9iaoj.apps.googleusercontent.com</string>",
+                "CFBundleURLTypes": "<key>CFBundleURLTypes</key>\n    <array>\n      <dict>\n        <key>CFBundleTypeRole</key>\n        <string>Editor</string>\n        <key>CFBundleURLSchemes</key>\n        <array>\n          <string>com.googleusercontent.apps.698348648054-deficqj6qc2opp539kqjnp3ig3k9iaoj</string>\n        </array>\n      </dict>\n    </array>"
+            }
+        },
+        "podFile": {},
+        "appDelegateSwift": {}
+    }
+}
